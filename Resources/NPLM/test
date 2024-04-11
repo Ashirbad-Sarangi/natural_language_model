@@ -1,0 +1,9 @@
+printf "Enter Filename : "
+read filename
+printf "Enter Password : "
+read -s password
+
+encrypted_filename="Encrypted_"$filename
+
+pdftk $filename output $encrypted_filename owner_pass $password
+
