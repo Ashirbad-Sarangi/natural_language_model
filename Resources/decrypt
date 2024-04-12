@@ -1,2 +1,5 @@
-VimCrypt~03!`ô7²û+9‹@”>œaUµâI°ÑQú¬V,¤¡ï*ƒÑÇ”=b¢‡›$Òò¶5™[7F…e6ÅM¶(i¾Õ"‡D¼'7¬‹Ù&/4™V”£VÄšêuÃNsŸµ
-ôóÕTë)nåBÛİÈúCô¢ßAlmÁzê¡YL°Õg]ª#ÍÌ¹ZPL
+printf "Enter the .gpg filename to decrypt (without .gpg): "
+read filename
+
+
+gpg --decrypt --output $filename $filename.gpg

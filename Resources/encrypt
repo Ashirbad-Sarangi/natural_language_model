@@ -1,3 +1,5 @@
-VimCrypt~03!ıÖXÚâhK14rìº€B:=ƒ-N/§–Ìä∑ê±¶Ô»:Ï
-o»òÀ]¶ìé8¢ù‰C∫{¨p$≤Xk‚é$0bÇøt¨|>ÕAµCjÇ“y—b‚Pæ,"H‰Å
-O∫n∑)ó!
+printf "Enter filename : "
+read filename
+
+gpg --encrypt -r ashirbad@duck.com $filename
+
