@@ -1,5 +1,0 @@
-printf "Enter the .gpg filename to decrypt (without .gpg): "
-read filename
-
-
-gpg --decrypt --output $filename $filename.gpg

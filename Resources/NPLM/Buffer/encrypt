@@ -1,5 +1,0 @@
-printf "Enter filename : "
-read filename
-
-gpg --encrypt -r ashirbad@duck.com $filename
-
